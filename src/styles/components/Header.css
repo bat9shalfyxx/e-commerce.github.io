@@ -1,0 +1,62 @@
+/* HEADER */
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.header__presentation {
+    width: 100%;
+    margin: 50px 0 100px 0;
+    height: 500px;
+    position: relative;
+
+    background-image: url(../../img/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #8f8f8f;
+}
+
+.header__presentation::after {
+    content: "Мебель для вашего дома";
+    position: absolute;
+    top: 40px;
+    left: 150px;
+
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffe4c4;
+}
+
+.header__presentation::before {
+    content: "По низким ценам";
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffe4c4;
+}
+
+.header__nav--list {
+    display: inline-flex;
+    column-gap: 30px;
+}
+
+.header__nav--item {
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.header__nav--item:hover {
+    top: 0.8px;
+    opacity: 0.6;
+}

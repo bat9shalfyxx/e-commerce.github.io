@@ -1,0 +1,33 @@
+/* Cart */
+.shop-cart {
+    position: relative;
+}
+
+.shop-cart--button {
+    top: 30px;
+    right: 25px;
+    height: 40px;
+    position: fixed;
+
+    transition: 0.3s ease;
+}
+
+.shop-cart--button.active {
+    height: 35px;
+}
+.shop-cart--button:hover {
+    fill: teal;
+}
+
+.shop-cart--space {
+    z-index: 100;
+    position: fixed;
+    height: 600px;
+    width: 400px;
+    right: 56px;
+    top: 65px;
+
+    box-shadow: 4px 4px 8px 0px rgba(2, 4, 5, 0.41);
+    background-color: #fafafa;
+    border-radius: 10px;
+}
