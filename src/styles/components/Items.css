@@ -13,10 +13,14 @@
     position: relative;
     border-radius: 10px;
     border: 2px solid black;
+
 }
 
 .product-list__item--img {
     padding: 10px;
+    min-height: 180px;
+    text-align: center;
+    background-image: url(../../img/bg.webp);
     transition: transform 0.3s ease;
 }
 

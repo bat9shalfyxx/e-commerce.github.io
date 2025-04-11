@@ -7,6 +7,7 @@ import ShoppingCart from "./components/ShoppingCart";
 function App() {
     return (
         <div className="wrapper">
+            {/* <img src={img} alt="dsada" /> */}
             <ShoppingCart />
             <Header />
             <Items />
