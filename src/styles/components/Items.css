@@ -18,9 +18,8 @@
 
 .product-list__item--img {
     padding: 10px;
-    min-height: 180px;
+    min-height: 130px;
     text-align: center;
-    background-image: url(../../img/bg.webp);
     transition: transform 0.3s ease;
 }
 
@@ -54,5 +53,6 @@
 
 .product-list__item--add-but:hover {
     color: teal;
+    transform: scale(1.05);
     cursor: pointer;
 }

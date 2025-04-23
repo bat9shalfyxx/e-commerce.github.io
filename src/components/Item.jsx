@@ -4,9 +4,9 @@ export default function Item({ product, addFunc }) {
     return (
         <div className="product-list__item">
             <div className="product-list__item--img">
-                <img src={`../..${product.image}`} alt={product.title} loading="lazy" />
+                <img src={product.image} alt={product.title} loading="lazy" />
             </div>
-            <button onClick={addFunc} className="product-list__item--add-but">
+            <button onClick={() => addFunc(product)} className="product-list__item--add-but">
                 Добавить в корзину
             </button>
 
@@ -20,3 +20,4 @@ export default function Item({ product, addFunc }) {
         </div>
     );
 }
+ 
